@@ -1,8 +1,45 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
 }
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 4px solid black;
+}
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -200,11 +237,6 @@ input:hover, input:focus {
 
 > Description.
 */
-
-/*
-[A PRETTIER Rendering Button]
-
-> Let's try this out later on. Back to basics.
 span{
     position: absolute;
     left: 67.5%;
@@ -249,4 +281,3 @@ span a:after{
 span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
 }
-*/
