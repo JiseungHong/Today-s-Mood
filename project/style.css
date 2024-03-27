@@ -1,0 +1,368 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background-color: #a9cadb;
+}
+.logo{
+  /* font-family: 'Preahvihear', sans-serif; */
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.navlist{
+  display: flex;
+}
+.navlist a{
+  color: black;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+}
+.navlist a:hover{
+  border-bottom: 2px solid black;
+}
+#menu-icon{
+  color: white;
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+
+/* (START) project.html > section definition */
+section{
+  padding: 0 19%;
+}
+.hero{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.hero-text a{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 120px;
+  line-height: 1;
+  color: black;
+  margin: 0 0 45px;
+  /* position: fixed; */
+}
+.hero-text h2{
+  font-size: 17px;
+  font-weight: 250;
+  color: black;
+  margin-bottom: 10px;
+}
+span{
+  font-size: 17px;
+  font-weight: 250;
+  color: black;
+  margin-bottom: 10px;
+}
+span b{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 20px;
+  font-weight: 250;
+  color: black;
+  margin-bottom: 10px;
+}
+/* (END) project.html > section definition */
+
+/* (START) project.html > school projects etc. */
+#poster_presentation{
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+#gotoPoster{
+  position: absolute;
+  top: 330px;
+  left: 1000px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+#gotoPoster:hover{
+  border-bottom: 2px solid black;
+}
+#school_projects{
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+#gotoSchool{
+  position: absolute;
+  top: 530px;
+  left: 1000px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+#gotoSchool:hover{
+  border-bottom: 2px solid black;
+}
+#web_projects{
+  position: absolute;
+  top: 700px;
+  left: 1000px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+#gotoWeb{
+  position: absolute;
+  top: 730px;
+  left: 1000px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+}
+#gotoWeb:hover{
+  border-bottom: 2px solid black;
+}
+/* (END) project.html > school projects etc. */
+
+/* (START) Only for poster_presentation.html */
+/* (START) Poster no1 = LREC Coling 2024 */
+.poster1{
+  height: 400px;
+  width: auto;
+  /* min-height: 100vh; */
+  position: absolute;
+  display: grid;
+
+  /* grid-template-columns: repeat(2, 1fr); */
+  align-items: center;
+  gap: 2rem;
+  border: 2px solid black;
+  padding: 20px;
+  left: 15%;
+  top: 200px;
+}
+
+.poster1-title a{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  color: black;
+  position: relative;
+}
+
+.poster1-image img{
+  align-items: center;
+  width: 400px;
+  height: auto;
+  line-height: 1;
+  margin: 0 0 45px;
+  position: relative;
+  z-index: -1;
+}
+
+.poster1-paper{
+  align-items: center;
+  position: inherit;
+  left: 700px;
+  width: 200px;
+  top: 10%;
+}
+
+.poster1-poster{
+  align-items: center;
+  position: inherit;
+  left: 700px;
+  width: 200px;
+  top: 20%;
+}
+/* .poster1-paper:hover{
+  border-bottom: 2px solid black;
+}
+
+.poster1-poster:hover{
+  border-bottom: 2px solid black;
+} */
+/* (END) Poster no1 = LREC Coling 2024 */
+/* (START) Poster no2 = CS479 KAIST - Machine Learning for 3D data */
+.poster2{
+  height: 400px;
+  width: auto;
+  /* min-height: 100vh; */
+  position: absolute;
+  display: grid;
+
+  /* grid-template-columns: repeat(2, 1fr); */
+  align-items: center;
+  gap: 2rem;
+  border: 2px solid black;
+  padding: 20px;
+  left: 15%;
+  top: 700px;
+}
+
+.poster2-title a{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  color: black;
+  position: relative;
+}
+
+.poster2-image img{
+  align-items: center;
+  width: 200px;
+  height: auto;
+  line-height: 1;
+  margin: 0 0 45px;
+  position: relative;
+  z-index: -1;
+}
+
+.poster2-paper{
+  align-items: center;
+  position: inherit;
+  left: 850px;
+  width: 200px;
+  top: 10%;
+}
+
+.poster2-poster{
+  align-items: center;
+  position: inherit;
+  left: 850px;
+  width: 200px;
+  top: 20%;
+}
+/* (END) Poster no2 = Machine Learning for 3D data */
+/* (END) Only for poster_presentation.html */
+
+.icons{
+  position: fixed;
+  top: 50%;
+  padding: 0 9%;
+  transform: translateY(-50%);
+  color: black;
+}
+.icons i{
+  display: block;
+  margin: 26px 0;
+  font-size: 24px;
+  color: black;
+  transition: all .50s ease;
+}
+.icons i:hover{
+  color: #a9cadb;
+  transform: translateY(-5px);
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  top: 1200px;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background-color: #a9cadb;
+}
+footer a{
+  position: absolute;
+  right: 100px;
+}
+
+.horizontal-container {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  display: flex;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  color: black;
+  background-color: #a9cadb;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 20px;
+
+  transition: all .50s ease;
+}
+.box:hover{
+  background-color: rgb(212, 229, 237);
+  transform: translateY(-5px);
+}
+#firstbox{
+  position: relative;
+  right: 200px;
+}
+#thirdbox{
+  position: relative;
+  left: 200px;
+}
+#forthbox{
+  position: relative;
+  right: 700px;
+  top: 400px;
+}
+#fifthbox{
+  position: relative;
+  right: 400px;
+  top: 400px;
+}
+
+#back{
+  position: absolute;
+  color: black;
+  left: 50px;
+  top: 160px;
+  
+  transition: all .50s ease;
+}
+#back:hover{
+  transform: translateY(-5px);
+}
