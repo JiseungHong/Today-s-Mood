@@ -165,7 +165,7 @@ span b{
 /* (START) Only for poster_presentation.html */
 /* (START) Poster no1 = LREC Coling 2024 */
 .poster1{
-  height: 400px;
+  height: 700px;
   width: auto;
   /* min-height: 100vh; */
   position: absolute;
@@ -235,7 +235,7 @@ span b{
   border: 2px solid black;
   padding: 20px;
   left: 15%;
-  top: 700px;
+  top: 1000px;
 }
 
 .poster2-title a{
@@ -296,7 +296,7 @@ span b{
 footer{
   position: absolute;
   right: 0;
-  top: 1200px;
+  top: 1600px;
   z-index: 1000;
   width: 100%;
   display: flex;
